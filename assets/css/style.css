@@ -32,18 +32,22 @@ main {
 }
 
 .project {
-    display: inline-flex;
+    /* display: inline-flex; */
     border-style: solid;
     border-width: 1px;
     border-color: white;
 }
 
-.projname {
-    display: inline-flex;
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.yr {
-    display: inline-flex;
+.project-info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-link {

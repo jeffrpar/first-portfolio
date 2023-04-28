@@ -72,11 +72,6 @@ main {
     
 }
 
-#projname {
-    margin-right: -5vw;
-    padding: 0;
-}
-
 #about {
     display: flex;
     align-items: center;
@@ -89,7 +84,7 @@ main {
     margin-right: 35px;
     max-width: 300px;
     max-height: 400px;
-    filter: grayscale(.15);
+    filter: grayscale(.1);
 }
 
 footer {

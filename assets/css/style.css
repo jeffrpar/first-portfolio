@@ -116,13 +116,29 @@ li {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      font-size: 18px;
     }
 
     header p {
         text-align: center;
     }
 
+    footer {
+        font-size: 18px;
+    }
+
     img {
         max-width: 95vw;
+    }
+
+    .tagline {
+        font-size: 32px;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    #about {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
   }

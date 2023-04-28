@@ -4,36 +4,28 @@
 
 body {
     margin: 0 auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     max-width: 1280px;
-}
-
-.all-caps {
-    text-transform: uppercase;
 }
 
 #name {
     display: inline;
     font-size: 100%;
-    color: rgb(0, 0, 0);
-}
-
-#about {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    color: rgb(111, 111, 111);
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 header {
     font-family: sans-serif;
     font-size:20px;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
     border-bottom: solid;
     border-color: black;
     border-width: 1px;
@@ -49,12 +41,18 @@ header nav {
 
 header nav a {
     margin-left: 15px;
+    color: rgb(111, 111, 111);
 }
 
 main {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: 0 10px;
+}
+
+.tagline {
+    font-size: 48px;
+    text-align: justify;
 }
 
 .projects {
@@ -79,9 +77,24 @@ main {
     padding: 0;
 }
 
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    text-align: justify;
+}
+
+#headshot {
+    margin-right: 35px;
+    max-width: 300px;
+    max-height: 400px;
+    filter: grayscale(.15);
+}
+
 footer {
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgb(111, 111, 111);
     margin: 5px 10px;
     border-top: solid;
     border-color: black;
@@ -113,4 +126,3 @@ li {
         max-width: 95vw;
     }
   }
-

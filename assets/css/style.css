@@ -14,13 +14,11 @@ body {
     color: rgb(111, 111, 111);
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
 
 header {
     font-family: sans-serif;
@@ -69,6 +67,7 @@ main {
     display: flex;
     margin: 0;
     justify-content: space-between;
+    color: rgb(111, 111, 111);
     
 }
 
@@ -100,6 +99,7 @@ footer {
 .footer-link {
     float: right;
     margin-left: 25px;
+    color: rgb(111, 111, 111);
 }
 
 li {
